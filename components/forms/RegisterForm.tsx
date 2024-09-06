@@ -177,8 +177,8 @@ const RegisterForm = ({ user }: { user: User }) => {
           <CustomFormField
             fieldType={FormFieldType.PHONE_INPUT}
             control={form.control}
-            name="emergencyContactPhone"
-            label="Emergency contact phone"
+            name="emergencyContactNumber"
+            label="Emergency contact number"
             placeholder="(555) 123-4567"
           />
         </div>
